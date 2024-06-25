@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "d3378527-d3cb-42d1-a0d6-a8c76ae46bc1", 
+    "interpreter": 1, 
+    "key": "gpinstalllibsforpython", 
+    "name": "GP Install Libs for Python", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

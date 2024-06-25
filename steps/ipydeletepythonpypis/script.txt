@@ -1,0 +1,2 @@
+
+rm -rf /tmp/attune_offline_py_packages

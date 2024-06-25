@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "f1a7e8bd-189c-453d-8288-b1d5d43a80ba", 
+    "interpreter": 1, 
+    "key": "gpinstalllibsoracleclient", 
+    "name": "GP Install Libs Oracle Client", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

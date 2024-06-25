@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "6665af78-2613-47fb-9a8d-7c7b6b9ab0db", 
+    "fileName": "timescaledb-2.10.3.tar.gz", 
+    "formatKey": "tar.gz", 
+    "key": "offlinetimescaledbsource2103", 
+    "md5": "12820dc19d633d7f94928292d5ac0d99", 
+    "name": "Offline TimescaleDB Source 2.10.3", 
+    "remoteUri": "https://github.com/timescale/timescaledb/archive/2.10.0.zip", 
+    "size": 7465897, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

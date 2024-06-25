@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "3a420350-69df-4193-889c-2f77357989e8", 
+    "interpreter": 1, 
+    "key": "spusymlinkattuneosinstalltmp", 
+    "name": "SPU Symlink /attune_os_install_tmp", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

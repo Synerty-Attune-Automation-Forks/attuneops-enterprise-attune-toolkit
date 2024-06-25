@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "9b320de0-05a2-4af1-86d4-7974f10924ee", 
+    "key": "attunecmakever", 
+    "name": "Attune: CMake Ver", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

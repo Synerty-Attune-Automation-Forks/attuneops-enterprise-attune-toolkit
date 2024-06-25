@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "2ea0b0fa-88a4-4312-a26b-a7c7a8c935a7", 
+    "interpreter": 1, 
+    "key": "pgdbsetsqlpassword", 
+    "name": "PGDB Set SQL Password", 
+    "osCredKey": "linuxattuneuser", 
+    "promptResponses": "Enter new password for user \"attune\":==={postgresqlAttuneUser.password}\nEnter it again:==={postgresqlAttuneUser.password}", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

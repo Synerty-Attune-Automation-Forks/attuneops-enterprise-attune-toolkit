@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "494395d7-9992-4ff3-87a3-a4e11c414ffb", 
+    "isBlueprint": false, 
+    "key": "configureselinux", 
+    "links": [
+        {
+            "stepKey": "setupattuneselinux"
+        }
+    ], 
+    "name": "Configure SELinux", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

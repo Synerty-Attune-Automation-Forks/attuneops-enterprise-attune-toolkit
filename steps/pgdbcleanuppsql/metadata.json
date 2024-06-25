@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "f75e3d73-c146-4287-a934-e568c1d1fd67", 
+    "interpreter": 1, 
+    "key": "pgdbcleanuppsql", 
+    "name": "PGDB Cleanup psql", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

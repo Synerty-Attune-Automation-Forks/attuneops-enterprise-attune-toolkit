@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "797e0502-609b-43c3-a539-82b3eb64ff70", 
+    "interpreter": 1, 
+    "key": "spuupdatesendmailalias", 
+    "name": "SPU Update Sendmail Alias", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

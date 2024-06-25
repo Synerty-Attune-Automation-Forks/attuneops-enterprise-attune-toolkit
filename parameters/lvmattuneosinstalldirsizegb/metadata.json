@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "e52aa1cd-d756-4f62-b80f-24df7d2e642b", 
+    "key": "lvmattuneosinstalldirsizegb", 
+    "name": "LVM Attune OS Install Dir Size GB", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

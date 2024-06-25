@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "0808e89d-440b-43c2-949e-01d861d31fc3", 
+    "key": "lvmpgdatasizegb", 
+    "name": "LVM PGData Size GB", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

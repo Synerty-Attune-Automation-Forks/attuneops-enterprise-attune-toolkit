@@ -1,0 +1,1 @@
+lvextend --size {lvmHomeSizeGb}g --resizefs /dev/rootvg/home

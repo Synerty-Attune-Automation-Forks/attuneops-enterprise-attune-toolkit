@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "4a1bf8dc-4433-4604-a13b-16326a7cbe2f", 
+    "isBlueprint": true, 
+    "key": "lvmsetupfilesystems", 
+    "links": [
+        {
+            "stepKey": "lvmaddpvstovgs"
+        }, 
+        {
+            "stepKey": "lvmextendhomelv"
+        }, 
+        {
+            "stepKey": "lvmcreatebackuplv"
+        }, 
+        {
+            "stepKey": "lvmcreatepgdatalv"
+        }, 
+        {
+            "stepKey": "lvmcreateattuneosinstalltmplv"
+        }
+    ], 
+    "name": "LVM Setup File Systems", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,33 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "938aa268-e65c-4e5a-b9a5-f23805567128", 
+    "isBlueprint": false, 
+    "key": "installpython", 
+    "links": [
+        {
+            "stepKey": "ipydeploypython"
+        }, 
+        {
+            "stepKey": "ipyconfigurebuildinstall"
+        }, 
+        {
+            "stepKey": "ipycleanup"
+        }, 
+        {
+            "stepKey": "ipycreatesymlinks"
+        }, 
+        {
+            "stepKey": "ipydeploypythonpypis"
+        }, 
+        {
+            "stepKey": "ipyinstallpythonpypis"
+        }, 
+        {
+            "stepKey": "ipydeletepythonpypis"
+        }
+    ], 
+    "name": "Install Python", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

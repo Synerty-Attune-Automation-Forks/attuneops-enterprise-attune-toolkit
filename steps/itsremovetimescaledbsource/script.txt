@@ -1,0 +1,3 @@
+echo Deleting timescaledb-*
+
+rm -rf timescaledb-*

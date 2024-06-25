@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "fd69f141-053f-411d-befb-954a4a590997", 
+    "interpreter": 1, 
+    "key": "gpinstalllibsforshapelygeos", 
+    "name": "GP Install Libs for Shapely/GEOS", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

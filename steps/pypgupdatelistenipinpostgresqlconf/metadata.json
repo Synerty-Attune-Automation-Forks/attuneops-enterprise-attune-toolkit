@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "d3024112-7106-4da9-8ec6-91af347c732d", 
+    "interpreter": 1, 
+    "key": "pypgupdatelistenipinpostgresqlconf", 
+    "name": "PYPG Update Listen IP in postgresql.conf", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

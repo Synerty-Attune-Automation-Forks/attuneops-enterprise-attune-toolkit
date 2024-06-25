@@ -1,0 +1,33 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "61039ea4-8ee4-46cd-bc6c-5c4bec574725", 
+    "isBlueprint": false, 
+    "key": "installtimescaledb", 
+    "links": [
+        {
+            "stepKey": "itsdeploytimescaledbsource"
+        }, 
+        {
+            "stepKey": "itsconfigurebuildinstall"
+        }, 
+        {
+            "stepKey": "itsremovetimescaledbsource"
+        }, 
+        {
+            "stepKey": "itsdeploytimescaledbtools"
+        }, 
+        {
+            "stepKey": "itsinstalltstune"
+        }, 
+        {
+            "stepKey": "itstunedb"
+        }, 
+        {
+            "stepKey": "itsremovetunedbinstaller"
+        }
+    ], 
+    "name": "Install TimescaleDB", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

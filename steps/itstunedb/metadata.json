@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "00147bec-0c0b-4af4-87a2-3b6c7a571233", 
+    "interpreter": 1, 
+    "key": "itstunedb", 
+    "name": "ITS Tune DB", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

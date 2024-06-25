@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "7f42c987-9feb-4cd8-8f6d-6ef0be60eb7c", 
+    "interpreter": 1, 
+    "key": "pdrelistpackages", 
+    "name": "PDRE List Packages", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

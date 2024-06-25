@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "dbd8dae6-45c7-4915-835f-f04c8feadc40", 
+    "interpreter": 1, 
+    "key": "pypgaddlogictopghbaconf", 
+    "name": "PYPG Add Logic to pg_hba.conf", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

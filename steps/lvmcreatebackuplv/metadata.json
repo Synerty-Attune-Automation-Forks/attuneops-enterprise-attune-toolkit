@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "714b8c38-ba01-49db-a7ad-ce144a98bb6a", 
+    "interpreter": 1, 
+    "key": "lvmcreatebackuplv", 
+    "name": "LVM Create Backup LV", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

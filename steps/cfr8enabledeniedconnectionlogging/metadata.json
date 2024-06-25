@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "7af8633f-cc20-4097-9089-1f69c419488a", 
+    "interpreter": 1, 
+    "key": "cfr8enabledeniedconnectionlogging", 
+    "name": "CFR8 Enable Denied Connection Logging", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

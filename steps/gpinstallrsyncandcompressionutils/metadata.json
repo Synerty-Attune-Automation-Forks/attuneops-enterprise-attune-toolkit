@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "b8e60a8c-8f28-42d3-9699-418e873ec170", 
+    "interpreter": 1, 
+    "key": "gpinstallrsyncandcompressionutils", 
+    "name": "GP Install Rsync and Compression Utils", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

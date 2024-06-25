@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "3dc4b36e-46e8-4e59-bfd2-c9196a7b3177", 
+    "interpreter": 1, 
+    "key": "pdredeleteoldlogs", 
+    "name": "PDRE Delete Old Logs", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

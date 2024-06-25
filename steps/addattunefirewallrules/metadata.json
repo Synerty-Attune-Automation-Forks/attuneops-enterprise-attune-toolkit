@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "408fe90c-bc42-4d8b-af21-4fedb6f10e28", 
+    "isBlueprint": false, 
+    "key": "addattunefirewallrules", 
+    "links": [
+        {
+            "stepKey": "setdefaultfirewalldzone"
+        }, 
+        {
+            "stepKey": "configurefirewalldforattune"
+        }
+    ], 
+    "name": "Add Attune Firewall Rules", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "b02ddfd6-0e85-4152-a0cb-01be8961d36e", 
+    "key": "attunewebappuseradmin", 
+    "name": "Attune Web-App User Admin", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

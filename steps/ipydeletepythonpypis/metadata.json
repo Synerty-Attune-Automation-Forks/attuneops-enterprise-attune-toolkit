@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "4b4f2018-6780-410f-9793-8636c94cd6c2", 
+    "interpreter": 1, 
+    "key": "ipydeletepythonpypis", 
+    "name": "IPY Delete Python PyPIs", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

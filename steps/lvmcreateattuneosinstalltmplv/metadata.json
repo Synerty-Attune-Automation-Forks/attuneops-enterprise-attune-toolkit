@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "f9492f75-4cbe-4a41-b643-857b92d201c9", 
+    "interpreter": 1, 
+    "key": "lvmcreateattuneosinstalltmplv", 
+    "name": "LVM Create Attune OS Install Tmp LV", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,7 @@
+
+chown -R {linuxAttuneUser.user}:{linuxAttuneUser.user} \
+    /attune_os_install_tmp
+
+cd ~{linuxAttuneUser.user}
+ln -snvf /attune_os_install_tmp .
+ln -snvf /attune_os_install_tmp kickstarts

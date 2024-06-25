@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": null, 
+    "archiveKey": "offlinesqliterpms", 
+    "deployPath": "/tmp/offline_install/sqlite", 
+    "enabled": true, 
+    "externalUuid4": "f02ea6ac-fe04-42e0-a6bb-a99bfbecbbe8", 
+    "key": "gpdeploylibsforsqlite", 
+    "name": "GP Deploy Libs for SQLite", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

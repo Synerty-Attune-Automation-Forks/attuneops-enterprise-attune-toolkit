@@ -1,0 +1,13 @@
+
+cat <<EOF > /etc/logrotate.d/firewalld
+/var/log/firewalld /var/log/firewalld-droppd.log {
+    maxsize 500M
+    daily
+    missingok
+    rotate 5
+    copytruncate
+    minsize 1M
+    compress
+}
+EOF
+

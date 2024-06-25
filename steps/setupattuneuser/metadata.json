@@ -1,0 +1,21 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "966a8d74-9e5a-4d3e-b337-920a183524f5", 
+    "isBlueprint": false, 
+    "key": "setupattuneuser", 
+    "links": [
+        {
+            "stepKey": "spucreateattuneuser"
+        }, 
+        {
+            "stepKey": "spuaddsudocommands"
+        }, 
+        {
+            "stepKey": "spuupdatesendmailalias"
+        }
+    ], 
+    "name": "Setup Attune User", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

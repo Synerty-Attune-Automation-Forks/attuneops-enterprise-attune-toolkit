@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "87be8f64-6121-4d44-96b0-48dbd16b560c", 
+    "interpreter": 1, 
+    "key": "itsconfigurebuildinstall", 
+    "name": "ITS Configure Build Install", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

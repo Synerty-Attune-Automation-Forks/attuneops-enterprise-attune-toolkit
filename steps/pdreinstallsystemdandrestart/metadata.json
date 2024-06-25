@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "cad41ee6-9420-40d8-b960-b7de4e0cefb5", 
+    "interpreter": 1, 
+    "key": "pdreinstallsystemdandrestart", 
+    "name": "PDRE Install Systemd and Restart", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

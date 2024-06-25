@@ -1,0 +1,7 @@
+cd /tmp/attune_offline_py_packages
+
+pip install --find-links=. --no-index pip*.whl
+
+pip install --find-links=. --no-index virtualenv*.whl
+
+pip install --find-links=. --no-index wheel*.whl

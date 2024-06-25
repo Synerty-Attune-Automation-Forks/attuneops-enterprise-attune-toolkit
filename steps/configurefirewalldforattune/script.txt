@@ -1,0 +1,11 @@
+ZONE=public
+
+
+echo "This is a Attune Web-App only node, adding port 443 redirect"
+firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8000
+firewall-cmd --add-service=https
+
+# TODO, Remove me
+firewall-cmd --add-port=8000/tcp
+
+firewall-cmd --runtime-to-permanent

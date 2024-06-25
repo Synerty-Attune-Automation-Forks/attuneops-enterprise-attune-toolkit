@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinetimescaledbtoolsrpm", 
+    "deployPath": "/tmp/install", 
+    "enabled": true, 
+    "externalUuid4": "56ccdcf0-3a83-4193-9c5d-62e9dce7dc57", 
+    "key": "itsdeploytimescaledbtools", 
+    "name": "ITS Deploy TimescaleDB Tools", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "69de4484-7795-440c-afab-f2777fdb819d", 
+    "interpreter": 1, 
+    "key": "gpinstallbuildtools", 
+    "name": "GP Install Build Tools", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

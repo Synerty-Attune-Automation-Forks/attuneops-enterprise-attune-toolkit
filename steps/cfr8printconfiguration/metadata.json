@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "0c69aac9-d7d5-49bc-a3f8-4b17d970b053", 
+    "interpreter": 1, 
+    "key": "cfr8printconfiguration", 
+    "name": "CFR8 Print Configuration", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

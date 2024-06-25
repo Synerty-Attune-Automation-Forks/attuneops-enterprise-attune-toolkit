@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7ececd1a-689b-4749-b0fd-bf6bf171a30c", 
+    "key": "lvmhomesizegb", 
+    "name": "LVM Home Size GB", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

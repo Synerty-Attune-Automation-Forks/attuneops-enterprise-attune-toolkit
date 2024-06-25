@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": null, 
+    "archiveKey": "offlinegeosrpms", 
+    "deployPath": "/tmp/offline_install/geos", 
+    "enabled": true, 
+    "externalUuid4": "13ce66d4-76a5-4cfa-b53d-c0fc10286ac6", 
+    "key": "gpdeploylibsforshapelygeos", 
+    "name": "GP Deploy Libs for Shapely/GEOS", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

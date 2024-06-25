@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "94377d26-c045-4a16-950e-0db32f47fec3", 
+    "interpreter": 1, 
+    "key": "ipginstallservicefile", 
+    "name": "IPG Install Service File", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,5 @@
+
+chown -R {linuxAttuneUser.user}:{linuxAttuneUser.user} /pgdata
+
+cd ~{linuxAttuneUser.user}
+ln -snvf /pgdata .

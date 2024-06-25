@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "3ba1d481-f1f0-44fc-bcc1-857bf095c22f", 
+    "key": "targetserveradminemail", 
+    "name": "Target Server: Admin Email", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

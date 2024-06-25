@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinecmakesource3264", 
+    "deployPath": "/home/{linuxAttuneUser.user}", 
+    "enabled": true, 
+    "externalUuid4": "49a15656-981b-4a21-baea-d38a8f40a031", 
+    "key": "icmdeploycmake", 
+    "name": "ICM Deploy CMake", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

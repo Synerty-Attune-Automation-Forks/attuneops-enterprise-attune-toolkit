@@ -1,0 +1,48 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "47d7c3bb-cd69-4c49-bfc7-a03478330a26", 
+    "isBlueprint": false, 
+    "key": "generalprerequisites", 
+    "links": [
+        {
+            "stepKey": "rhelupdatepackages"
+        }, 
+        {
+            "stepKey": "gpinstallbuildtools"
+        }, 
+        {
+            "stepKey": "gpinstallrsyncandcompressionutils"
+        }, 
+        {
+            "stepKey": "gpinstallpythonbuilddependencies"
+        }, 
+        {
+            "stepKey": "gpinstallpostgresqlbuilddependencies"
+        }, 
+        {
+            "stepKey": "gpinstalllibsforpython"
+        }, 
+        {
+            "stepKey": "gpdeploylibsforshapelygeos"
+        }, 
+        {
+            "stepKey": "gpinstalllibsforshapelygeos"
+        }, 
+        {
+            "stepKey": "gpdeploylibsforsqlite"
+        }, 
+        {
+            "stepKey": "gpinstalllibsforsqlite"
+        }, 
+        {
+            "stepKey": "gpinstalllibsoracleclient"
+        }, 
+        {
+            "stepKey": "rhelcleanuppackages"
+        }
+    ], 
+    "name": "General Prerequisites", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

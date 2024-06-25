@@ -1,0 +1,2 @@
+echo "Deleting attune log files"
+rm -f attune.home/*.log*

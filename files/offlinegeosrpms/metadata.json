@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "5842a79d-eff8-416b-b272-4b76ceb1455b", 
+    "key": "offlinegeosrpms", 
+    "name": "Offline GEOS RPMs", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

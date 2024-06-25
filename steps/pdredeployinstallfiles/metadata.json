@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "attuneenterpriserelease", 
+    "deployPath": "attune_install", 
+    "enabled": true, 
+    "externalUuid4": "8386edde-3b71-4411-b855-33f349b3c344", 
+    "key": "pdredeployinstallfiles", 
+    "name": "PDRE Deploy Install Files", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinepythonsource", 
+    "deployPath": "/home/{linuxAttuneUser.user}", 
+    "enabled": true, 
+    "externalUuid4": "59988b3c-5cc5-4376-8f34-9b19981eea0f", 
+    "key": "ipydeploypython", 
+    "name": "IPY Deploy Python", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

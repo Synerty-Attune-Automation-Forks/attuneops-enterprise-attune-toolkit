@@ -1,0 +1,7 @@
+ATTYNE_PY_VER={attunePythonVer}
+
+tar xvzf Python-${ATTYNE_PY_VER}.tgz
+
+cd Python-${ATTYNE_PY_VER}
+./configure --prefix=/home/{linuxAttuneUser.user}/opt/ --enable-optimizations --enable-shared
+make install

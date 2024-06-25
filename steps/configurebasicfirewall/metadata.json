@@ -1,0 +1,21 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "1cf1d96c-0091-4c3e-b4c5-651628751346", 
+    "isBlueprint": true, 
+    "key": "configurebasicfirewall", 
+    "links": [
+        {
+            "stepKey": "cfr8commonfirewallconfiguration"
+        }, 
+        {
+            "stepKey": "addattunefirewallrules"
+        }, 
+        {
+            "stepKey": "cfr8finishfirewallconfiguration"
+        }
+    ], 
+    "name": "Configure Basic Firewall", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "e2037d8e-ed30-4d7f-80fc-4443a54cecc9", 
+    "interpreter": 1, 
+    "key": "lvmextendhomelv", 
+    "name": "LVM Extend Home LV", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

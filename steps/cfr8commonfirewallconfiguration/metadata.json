@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "2ae0316d-0842-497f-8f76-4c77afeefad9", 
+    "isBlueprint": false, 
+    "key": "cfr8commonfirewallconfiguration", 
+    "links": [
+        {
+            "stepKey": "cfr8enabledeniedconnectionlogging"
+        }, 
+        {
+            "stepKey": "cfr8createfirewalllogfile"
+        }, 
+        {
+            "stepKey": "cfr8createfirewalllogrotateconfig"
+        }, 
+        {
+            "stepKey": "cfr8clearfirewallconfig"
+        }, 
+        {
+            "stepKey": "cfr8allowssh"
+        }
+    ], 
+    "name": "CFR8 Common Firewall Configuration", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

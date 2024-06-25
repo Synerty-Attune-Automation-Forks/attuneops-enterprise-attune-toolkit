@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "ffc1c26f-99d3-410c-9218-9f8f8f719417", 
+    "interpreter": 1, 
+    "key": "ipgconfigurebuildinstall", 
+    "name": "IPG Configure Build Install", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

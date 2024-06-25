@@ -1,0 +1,6 @@
+F='/pgdata/15/pg_hba.conf'
+
+# cat <<EOF >> $F
+# host    all             all             <allowed-node-ip>/32            md5
+# EOF
+

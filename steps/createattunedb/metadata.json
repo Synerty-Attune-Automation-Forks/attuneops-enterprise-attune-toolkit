@@ -1,0 +1,21 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "dd2482fb-db1c-405f-bc1d-414a43dc9d54", 
+    "isBlueprint": false, 
+    "key": "createattunedb", 
+    "links": [
+        {
+            "stepKey": "pgdbsetsqlpassword"
+        }, 
+        {
+            "stepKey": "pgdbcreatedatabase"
+        }, 
+        {
+            "stepKey": "pgdbcleanuppsql"
+        }
+    ], 
+    "name": "Create Attune DB", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

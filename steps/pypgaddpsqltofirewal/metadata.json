@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "a1e3692d-9af1-4f78-a7bf-1441c53f5473", 
+    "interpreter": 1, 
+    "key": "pypgaddpsqltofirewal", 
+    "name": "PYPG Add PSQL To Firewal", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

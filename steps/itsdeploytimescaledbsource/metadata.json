@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinetimescaledbsource2103", 
+    "deployPath": "/home/{linuxAttuneUser.user}", 
+    "enabled": true, 
+    "externalUuid4": "3f5f5694-35fd-40b6-b999-922a050f2e70", 
+    "key": "itsdeploytimescaledbsource", 
+    "name": "ITS Deploy TimescaleDB Source", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

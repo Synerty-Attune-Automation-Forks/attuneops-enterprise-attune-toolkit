@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "8fe68527-9e7b-4df6-9e84-6ea52e6834c4", 
+    "key": "attunetimescaledbver", 
+    "name": "Attune: TimescaleDB Ver", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

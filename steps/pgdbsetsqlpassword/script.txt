@@ -1,0 +1,4 @@
+psql -d postgres -U attune <<EOF
+\password
+\q
+EOF

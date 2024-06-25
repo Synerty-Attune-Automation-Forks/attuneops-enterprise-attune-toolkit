@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "eea8176f-ac5f-475a-a3c2-15ae014607db", 
+    "interpreter": 1, 
+    "key": "spucreateattuneuser", 
+    "name": "SPU Create Attune User", 
+    "osCredKey": "linuxrootuser", 
+    "promptResponses": "password:==={linuxAttuneUser.password}", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

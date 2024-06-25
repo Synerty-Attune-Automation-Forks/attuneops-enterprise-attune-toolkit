@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "4fed6163-982a-42cb-875c-a1888c82d0e6", 
+    "isBlueprint": false, 
+    "key": "installpostgresql", 
+    "links": [
+        {
+            "stepKey": "ipgdeploypostgresql"
+        }, 
+        {
+            "stepKey": "ipgconfigurebuildinstall"
+        }, 
+        {
+            "stepKey": "ipginitcluster"
+        }, 
+        {
+            "stepKey": "ipgtunepostgresqlconf"
+        }, 
+        {
+            "stepKey": "ipginstallservicefile"
+        }
+    ], 
+    "name": "Install PostgreSQL", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,8 @@
+F="$HOME/pgdata/15/postgresql.conf"
+
+# cat <<EOF >> $F
+# listen_addresses = 'localhost,<monitoring-node>'
+# EOF
+
+# Print the changed line
+grep listen_addresses $F

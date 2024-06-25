@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 2, 
+    "enabled": true, 
+    "externalUuid4": "8a92099c-b6ca-410b-b553-36fbbc7e38a8", 
+    "isBlueprint": false, 
+    "key": "setupattuneconfig", 
+    "links": [
+        {
+            "stepKey": "sacconfiguregitglobal"
+        }, 
+        {
+            "stepKey": "saccreateskeletonconfigcfg"
+        }
+    ], 
+    "name": "Setup Attune Config", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

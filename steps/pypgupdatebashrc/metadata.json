@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "aa001033-c150-4bb2-8c40-1c67e26b2c22", 
+    "interpreter": 1, 
+    "key": "pypgupdatebashrc", 
+    "name": "PYPG Update bashrc", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

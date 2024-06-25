@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "e013593b-2612-41a4-9bf4-513b390ce34b", 
+    "interpreter": 1, 
+    "key": "ipycreatesymlinks", 
+    "name": "IPY Create Symlinks", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

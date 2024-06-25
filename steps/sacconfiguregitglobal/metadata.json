@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "e6e70f67-dafe-4795-8b05-f9247522d96e", 
+    "interpreter": 1, 
+    "key": "sacconfiguregitglobal", 
+    "name": "SAC Configure GIT Global", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "ebca45a0-dec6-4ceb-8d3d-b4ebc5fb104c", 
+    "fileName": "Python-3.12.2.tgz", 
+    "formatKey": "tar.gz", 
+    "key": "offlinepythonsource", 
+    "md5": "4e64a004f8ad9af1a75607cfd0d5a8c8", 
+    "name": "Offline Python Source", 
+    "remoteUri": "https://www.python.org/ftp/python/3.12.2/Python-3.12.2.tgz", 
+    "size": 27116462, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

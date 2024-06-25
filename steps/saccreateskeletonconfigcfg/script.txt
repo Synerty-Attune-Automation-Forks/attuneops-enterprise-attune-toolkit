@@ -1,0 +1,31 @@
+[ -d ~/attune.home ] || mkdir ~/attune.home
+
+if ! grep -q "[disk_storage]" ~/attune.home/config.cfg
+then
+
+    cat <<"EOF" >> ~/attune.home/config.cfg
+    
+[disk_storage]
+home_path = /home/attune/attune.home
+archives_path = %(home_path)s/archives_contents
+tmp_path = %(home_path)s/tmp
+archives_unlocked_contents = %(home_path)s/archives_unlocked_contents
+
+
+[alembic]
+# path to migration scripts
+script_location = /home/{linuxAttuneUser.user}/python/lib/python3.12/site-packages/attune/alembic/migration
+sourceless = true
+sqlalchemy.url = postgresql://{postgresqlAttuneUser.user}:{postgresqlAttuneUser.password}@localhost/attune
+
+[user]
+admin.pass = {attuneWebappUserAdmin.password}
+
+EOF
+
+else
+    echo "[disk_storage] is already written, skipping."
+fi
+
+echo "~/attune.home/config.cfg:"
+cat ~/attune.home/config.cfg

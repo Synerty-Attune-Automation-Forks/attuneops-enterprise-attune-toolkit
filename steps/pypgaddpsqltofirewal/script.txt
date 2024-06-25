@@ -1,0 +1,17 @@
+ZONE="peek-logic"
+
+
+firewall-cmd --reload
+if firewall-cmd --get-zones | grep -q ${ZONE}
+then
+    firewall-cmd --permanent --delete-zone=${ZONE}
+    firewall-cmd --reload
+fi
+
+firewall-cmd --permanent --new-zone=${ZONE}
+firewall-cmd --permanent --zone=${ZONE} --add-port 5432/tcp
+firewall-cmd --permanent --zone=${ZONE} --add-service ssh
+#firewall-cmd --permanent --zone=${ZONE} --add-source <allowed-node-ip>
+firewall-cmd --reload
+
+

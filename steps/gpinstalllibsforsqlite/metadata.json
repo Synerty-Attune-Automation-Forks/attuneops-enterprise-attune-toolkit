@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "7a279976-d808-459d-bc52-2d859b9cf7f2", 
+    "interpreter": 1, 
+    "key": "gpinstalllibsforsqlite", 
+    "name": "GP Install Libs for SQLite", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

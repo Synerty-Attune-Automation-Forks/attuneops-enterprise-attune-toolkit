@@ -1,0 +1,3 @@
+cd /tmp/install
+yum install -y timescale*rpm
+rm timescale*rpm

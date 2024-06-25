@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "bc71ffb8-a32a-4f05-9ddd-6a119b0418f2", 
+    "interpreter": 1, 
+    "key": "lvmaddpvstovgs", 
+    "name": "LVM Add PVs to VGs", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

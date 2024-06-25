@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "9a85c8a1-12ce-42fb-9eef-5734b28428bb", 
+    "interpreter": 1, 
+    "key": "spuaddsudocommands", 
+    "name": "SPU Add Sudo Commands", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

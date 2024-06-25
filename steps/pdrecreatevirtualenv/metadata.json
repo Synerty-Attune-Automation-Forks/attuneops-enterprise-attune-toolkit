@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "1dee94dd-e627-4e36-9ef3-cedcda438aa3", 
+    "interpreter": 1, 
+    "key": "pdrecreatevirtualenv", 
+    "name": "PDRE Create virtualenv", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

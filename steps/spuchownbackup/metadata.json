@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "980eaea5-1af5-4f65-9871-d27047b04c22", 
+    "interpreter": 1, 
+    "key": "spuchownbackup", 
+    "name": "SPU Chown /backup", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

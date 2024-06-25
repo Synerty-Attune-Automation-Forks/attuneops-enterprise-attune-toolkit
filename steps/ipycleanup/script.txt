@@ -1,0 +1,2 @@
+ATTYNE_PY_VER={attunePythonVer}
+rm -rf Python-${ATTYNE_PY_VER}*

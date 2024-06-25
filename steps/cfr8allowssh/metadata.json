@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "332ad54a-aec3-4e3f-a6a7-d0740516d0e6", 
+    "interpreter": 1, 
+    "key": "cfr8allowssh", 
+    "name": "CFR8 Allow SSH", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

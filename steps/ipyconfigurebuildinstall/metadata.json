@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "a61da848-b507-425e-9d5c-2fbdab451999", 
+    "interpreter": 1, 
+    "key": "ipyconfigurebuildinstall", 
+    "name": "IPY Configure Build Install", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

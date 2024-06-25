@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "d45ed57f-fbf3-4a6d-a046-f90f7fa0edf6", 
+    "interpreter": 1, 
+    "key": "spusymlinkpgdata", 
+    "name": "SPU Symlink /pgdata", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

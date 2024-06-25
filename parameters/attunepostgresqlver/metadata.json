@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "ce482212-ee34-494b-a31e-f9613d45079a", 
+    "key": "attunepostgresqlver", 
+    "name": "Attune: PostgreSQL Ver", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

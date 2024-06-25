@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinepythonpypis", 
+    "deployPath": "/tmp/attune_offline_py_packages", 
+    "enabled": true, 
+    "externalUuid4": "158f1d7d-277e-465b-bbff-aaef53d43534", 
+    "key": "ipydeploypythonpypis", 
+    "name": "IPY Deploy Python PyPIs", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

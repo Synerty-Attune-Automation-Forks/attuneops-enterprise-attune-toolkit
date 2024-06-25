@@ -1,0 +1,24 @@
+U={linuxAttuneUser.user}
+F=/etc/aliases
+
+# Direct ${U}'s email to root
+if grep ${U} ${F}; then
+    echo "${U} already exists in ${F}"
+else
+    echo "Adding ${U}"
+    tee -a ${F} <<< "${U}:   root"
+fi
+
+# Update the root alias
+if grep -q '^root:' ${F}
+then
+    echo "Root exists, making sure it's up to date"
+    sed -i 's/^root:.*/root:    {targetServerAdminEmail}/g' ${F}
+else
+    echo "Adding root alias, making sure it's up to date"
+    echo 'root:    {targetServerAdminEmail}' >> ${F}
+fi
+echo "The root alias is "
+grep '^root:' ${F}
+
+newaliases

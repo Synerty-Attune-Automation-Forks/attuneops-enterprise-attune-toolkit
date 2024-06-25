@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "89cb3af7-bf68-47c5-a7b2-dea6a223ba0a", 
+    "interpreter": 1, 
+    "key": "itsremovetunedbinstaller", 
+    "name": "ITS Remove TuneDB Installer", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

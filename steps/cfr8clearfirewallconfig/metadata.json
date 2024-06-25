@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "06670c8f-e0f2-49a1-a0d5-1c0e67f0e13f", 
+    "interpreter": 1, 
+    "key": "cfr8clearfirewallconfig", 
+    "name": "CFR8 Clear Firewall Config", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "c052703d-40ee-4c54-9547-f8fa8532db81", 
+    "isBlueprint": false, 
+    "key": "installcmake", 
+    "links": [
+        {
+            "stepKey": "icmdeploycmake"
+        }, 
+        {
+            "stepKey": "icmconfigurebuildinstall"
+        }
+    ], 
+    "name": "Install CMake", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

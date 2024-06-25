@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "6619b931-e9ae-45bc-83d9-0c6bf568f73f", 
+    "interpreter": 1, 
+    "key": "saccreateskeletonconfigcfg", 
+    "name": "SAC Create Skeleton config.cfg", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

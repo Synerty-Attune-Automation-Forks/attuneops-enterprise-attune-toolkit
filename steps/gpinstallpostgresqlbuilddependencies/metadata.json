@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "47e8b55c-26c8-45e7-86be-2ae8b71b6b16", 
+    "interpreter": 1, 
+    "key": "gpinstallpostgresqlbuilddependencies", 
+    "name": "GP Install PostgreSQL Build Dependencies", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

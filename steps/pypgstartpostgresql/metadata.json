@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "722b6238-fbdb-4a47-a14a-0209f05e6e8c", 
+    "interpreter": 1, 
+    "key": "pypgstartpostgresql", 
+    "name": "PYPG Start PostgreSQL", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

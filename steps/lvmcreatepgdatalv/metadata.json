@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "37cf858f-b830-4644-af16-8e90d55e5891", 
+    "interpreter": 1, 
+    "key": "lvmcreatepgdatalv", 
+    "name": "LVM Create PGData LV", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

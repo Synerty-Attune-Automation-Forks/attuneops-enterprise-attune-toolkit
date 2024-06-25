@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "927c822c-f3a2-43e4-b339-afd3da34c472", 
+    "interpreter": 1, 
+    "key": "pdredeleteoldreleases", 
+    "name": "PDRE Delete Old Releases", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

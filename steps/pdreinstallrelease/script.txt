@@ -1,0 +1,13 @@
+
+if [ "$HOME/python/bin/pip" == `which pip` ]; then
+    echo "SUCCESS, this is the right pip"
+else
+    echo "This isn't the right pip"
+    false
+fi
+
+
+cd attune_install/attune_ee*
+
+# Deploy the software
+pip install --no-index --no-cache  --find-links=py py/attune-*.whl

@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "e6764c57-6bf0-409e-8bb8-9275b94a6626", 
+    "interpreter": 1, 
+    "key": "pdreinstallrelease", 
+    "name": "PDRE Install Release", 
+    "osCredKey": "linuxattuneuser", 
+    "promptResponses": "Do you want to permanently enable this release?===y\nDo you want to update the init scripts to auto start peek?===n", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

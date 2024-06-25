@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "77b11792-15b8-43e2-97a4-aa4d271774d1", 
+    "interpreter": 1, 
+    "key": "cfr8createfirewalllogrotateconfig", 
+    "name": "CFR8 Create Firewall Logrotate Config", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

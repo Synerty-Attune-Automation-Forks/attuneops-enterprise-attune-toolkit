@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "9570adab-9ab5-4f63-a16e-4fbbf17016b1", 
+    "key": "offlinesqliterpms", 
+    "name": "Offline SQLite RPMs", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

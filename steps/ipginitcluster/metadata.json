@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "11b52258-201e-4086-ad7c-b30756f6a640", 
+    "interpreter": 1, 
+    "key": "ipginitcluster", 
+    "name": "IPG Init Cluster", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

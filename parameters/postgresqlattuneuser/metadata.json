@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "6b732a33-5d1d-4413-9ad3-73baf5e721b0", 
+    "key": "postgresqlattuneuser", 
+    "name": "PostGreSQL: Attune User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

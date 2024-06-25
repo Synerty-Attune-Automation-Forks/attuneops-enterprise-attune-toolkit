@@ -1,0 +1,4 @@
+
+# Open port 22 for ssh to continue working
+firewall-cmd --add-service=ssh --permanent
+firewall-cmd --add-service=ssh

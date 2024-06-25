@@ -1,0 +1,39 @@
+F=/usr/lib/systemd/system/postgresql-15.service
+
+cat <<"EOF" | sed "s,\$HOME,`echo ~{linuxAttuneUser.user}`,g" > $F
+[Unit]
+Description=PostgreSQL 15 database server
+After=network-online.target
+
+[Service]
+Type=forking
+User={linuxAttuneUser.user}
+Group={linuxAttuneUser.user}
+
+# Location of database directory
+Environment=PGDATA=$HOME/pgdata/15
+
+# Disable OOM kill on the postmaster
+OOMScoreAdjust=-1000
+Environment=PG_OOM_ADJUST_FILE=/proc/self/oom_score_adj
+Environment=PG_OOM_ADJUST_VALUE=0
+
+ExecStart=$HOME/opt/bin/pg_ctl -D ${PGDATA} start
+ExecStop=$HOME/opt/bin/pg_ctl -D ${PGDATA} stop
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGINT
+ 
+
+# Do not set any timeout value, so that systemd will not kill postmaster
+# during crash recovery.
+TimeoutSec=0
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+
+# Print files, and replace empty lines with a . so Attune shows them
+systemctl cat postgresql-15 | sed 's/^$/./g'

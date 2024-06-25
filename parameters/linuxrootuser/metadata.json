@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "fc073464-1138-43b1-9456-92809d21832c", 
+    "key": "linuxrootuser", 
+    "name": "Linux: Root User", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

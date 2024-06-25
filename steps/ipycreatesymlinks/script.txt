@@ -1,0 +1,4 @@
+
+cd opt/bin
+ln -sv pip3 pip
+ln -sv python3 python

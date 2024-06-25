@@ -1,0 +1,13 @@
+cat <<"EOF">> ~/.bashrc
+
+##### SET THE PEEK ENVIRONMENT #####
+# Setup the variables for PYTHON and POSTGRESQL
+export ATTUNE_PY_VER="{attunePythonVer}"
+export ATTUNE_PG_VER="{attunePostgresqlVer}"
+export ATTUNE_CMAKE_VER="{attuneCmakeVer}"
+export ATTUNE_TSDB_VER="{attuneTimescaledbVer}"
+
+export PATH="$HOME/python/bin:$HOME/opt/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/opt/lib:$LD_LIBRARY_PATH"
+
+EOF

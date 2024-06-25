@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "dd9b3f85-90be-4388-a8b2-81a9f2ba1e3c", 
+    "interpreter": 1, 
+    "key": "configurefirewalldforattune", 
+    "name": "Configure firewalld for Attune", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

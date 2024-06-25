@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "543588da-2805-458e-97c1-2eba30f579ae", 
+    "fileName": "cmake-3.26.6.tar.gz", 
+    "formatKey": "tar.gz", 
+    "key": "offlinecmakesource3264", 
+    "md5": "23047d4e6d2f5e08b552bbad21421cee", 
+    "name": "Offline CMake Source 3.26.4", 
+    "remoteUri": "https://github.com/Kitware/CMake/releases/download/v3.26.6/cmake-3.26.6.tar.gz", 
+    "size": 10669675, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

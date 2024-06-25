@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "offlinepostgresqlsource", 
+    "deployPath": "/home/{linuxAttuneUser.user}", 
+    "enabled": true, 
+    "externalUuid4": "ba13dec8-1ebe-487a-8f7f-72a437f6f999", 
+    "key": "ipgdeploypostgresql", 
+    "name": "IPG Deploy PostgreSQL", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

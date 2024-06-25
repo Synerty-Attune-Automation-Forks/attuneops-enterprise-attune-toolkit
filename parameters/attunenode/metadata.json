@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "efc6a881-d525-4861-8f17-f077407ec3b0", 
+    "key": "attunenode", 
+    "name": "Attune Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

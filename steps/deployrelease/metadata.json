@@ -1,0 +1,45 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "8b5413ec-0c88-45e4-a776-824e4f30dc3c", 
+    "isBlueprint": true, 
+    "key": "deployrelease", 
+    "links": [
+        {
+            "stepKey": "pdrecleaninstallfiles"
+        }, 
+        {
+            "stepKey": "pdrestopattune"
+        }, 
+        {
+            "stepKey": "pdredeployinstallfiles"
+        }, 
+        {
+            "stepKey": "pdredeleteoldreleases"
+        }, 
+        {
+            "stepKey": "pdredeleteoldlogs"
+        }, 
+        {
+            "stepKey": "pdrecreatevirtualenv"
+        }, 
+        {
+            "stepKey": "pdreinstallrelease"
+        }, 
+        {
+            "stepKey": "pdreinstallsystemdandrestart"
+        }, 
+        {
+            "stepKey": "pdrestartattuneservice"
+        }, 
+        {
+            "stepKey": "pdrecleaninstallfiles"
+        }, 
+        {
+            "stepKey": "pdrelistpackages"
+        }
+    ], 
+    "name": "Deploy Release", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "0a85a596-e26d-4808-b299-dcab0b77bcf3", 
+    "interpreter": 1, 
+    "key": "setdefaultfirewalldzone", 
+    "name": "Set Default Firewalld Zone", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

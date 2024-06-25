@@ -1,0 +1,21 @@
+{
+    "actionOnStepFail": null, 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "4ea74379-78de-4276-9136-bfaa8f91f6af", 
+    "isBlueprint": false, 
+    "key": "cfr8finishfirewallconfiguration", 
+    "links": [
+        {
+            "stepKey": "cfr8restartfirewall"
+        }, 
+        {
+            "stepKey": "cfr8clearfirewalllogs"
+        }, 
+        {
+            "stepKey": "cfr8printconfiguration"
+        }
+    ], 
+    "name": "CFR8 Finish Firewall Configuration", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

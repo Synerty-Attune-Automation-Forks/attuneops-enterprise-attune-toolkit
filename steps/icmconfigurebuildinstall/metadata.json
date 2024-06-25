@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "7b67836f-f7ce-4529-ba7d-035a1d9ede2d", 
+    "interpreter": 1, 
+    "key": "icmconfigurebuildinstall", 
+    "name": "ICM Configure Build Install", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

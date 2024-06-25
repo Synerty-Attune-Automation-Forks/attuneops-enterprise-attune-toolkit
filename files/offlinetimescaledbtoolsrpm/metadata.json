@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "978303f1-55c5-4a4d-a2fe-81a2def89479", 
+    "fileName": "timescaledb-tools-0.8.1-0.el7.x86_64.rpm", 
+    "formatKey": "unknown", 
+    "key": "offlinetimescaledbtoolsrpm", 
+    "md5": "472dbfe37ff0d0d0710da0755d1d5fd9", 
+    "name": "Offline TimescaleDB Tools RPM", 
+    "remoteUri": null, 
+    "size": 2926276, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

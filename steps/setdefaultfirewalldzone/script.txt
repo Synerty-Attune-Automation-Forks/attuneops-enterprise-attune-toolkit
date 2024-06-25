@@ -1,0 +1,3 @@
+
+firewall-cmd --set-default=public
+firewall-cmd --runtime-to-permanent

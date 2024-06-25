@@ -1,0 +1,69 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "ce8460fe-8646-4baa-88c7-f3dda3cb6264", 
+    "isBlueprint": true, 
+    "key": "installdependenciesanddb", 
+    "links": [
+        {
+            "stepKey": "configurebasicfirewall"
+        }, 
+        {
+            "stepKey": "generalprerequisites"
+        }, 
+        {
+            "stepKey": "setupattuneuser"
+        }, 
+        {
+            "stepKey": "spusymlinkpgdata"
+        }, 
+        {
+            "stepKey": "spusymlinkattuneosinstalltmp"
+        }, 
+        {
+            "stepKey": "spuchownbackup"
+        }, 
+        {
+            "stepKey": "pypgupdatebashrc"
+        }, 
+        {
+            "stepKey": "installpython"
+        }, 
+        {
+            "stepKey": "installpostgresql"
+        }, 
+        {
+            "stepKey": "installcmake"
+        }, 
+        {
+            "stepKey": "installtimescaledb"
+        }, 
+        {
+            "stepKey": "configureselinux"
+        }, 
+        {
+            "stepKey": "setupattuneconfig"
+        }, 
+        {
+            "stepKey": "pypgaddpsqltofirewal"
+        }, 
+        {
+            "stepKey": "pypgupdatelistenipinpostgresqlconf"
+        }, 
+        {
+            "stepKey": "pypgaddlogictopghbaconf"
+        }, 
+        {
+            "stepKey": "pypgstartpostgresql"
+        }, 
+        {
+            "stepKey": "createattunedb"
+        }, 
+        {
+            "stepKey": "rhelcleanuppackages"
+        }
+    ], 
+    "name": "Install Dependencies and DB", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

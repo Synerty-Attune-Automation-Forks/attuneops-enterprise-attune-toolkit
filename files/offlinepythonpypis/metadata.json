@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "579506ed-3aa6-40cc-9a35-a7e27be718ab", 
+    "fileName": "offline.tar", 
+    "formatKey": "tar", 
+    "key": "offlinepythonpypis", 
+    "md5": "52c0826414c97696bb9e9da8f28a1cee", 
+    "name": "Offline Python PyPIs", 
+    "remoteUri": null, 
+    "size": 6461440, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "da41a4f9-3593-4aba-a92d-269b655e64e1", 
+    "key": "lvmvgdiskstoadd", 
+    "name": "LVM VG Disks To Add", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

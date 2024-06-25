@@ -1,0 +1,12 @@
+
+
+cd ~{linuxAttuneUser.user}/attune_install/attune_ee*
+
+# Install the init script
+sed -i -e 's%#ATTUNE_HOME#%/home/{linuxAttuneUser.user}%' init/attune.service
+sudo cp init/attune.service /lib/systemd/system/
+
+# Reload systemctl
+sudo systemctl daemon-reload
+
+sudo systemctl enable attune

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "92785e6f-876f-48f1-a032-bb91d7ac7e54", 
+    "interpreter": 1, 
+    "key": "ipyinstallpythonpypis", 
+    "name": "IPY Install Python PyPIs", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attunenode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
