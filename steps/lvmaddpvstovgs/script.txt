@@ -1,3 +1,7 @@
+# Make sure the new disks are detected
+udevadm trigger
+
+
 mkvg() {
     VG=$1
     DEV=$2
